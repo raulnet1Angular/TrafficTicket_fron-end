@@ -1,0 +1,19 @@
+<h2>Usuario Registrado</h2>
+<table>
+    <thead>
+      <tr>
+          <th>Id</th>
+          <th>User firstName</th>
+          <th>User lastName</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let user of listUser">
+        <td>{{user.id}}</td>
+        <td>{{user.firstName}}</td>
+        <td>{{user.lastName}}</td>
+      </tr>
+    </tbody>
+  </table>
+        
